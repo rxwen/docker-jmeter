@@ -1,7 +1,7 @@
 FROM anapsix/alpine-java
 MAINTAINER Raymond Wen
 
-ENV JMETER_VERSION 3.0
+ENV JMETER_VERSION 3.1
 ENV JMETER_DIR_NAME apache-jmeter-${JMETER_VERSION}
 ENV PATH /${JMETER_DIR_NAME}/bin:${PATH}
 RUN apk update && apk add ca-certificates wget
